@@ -20,14 +20,29 @@
   ## OPPURTUNITY:
   * It can be use speaker and scanner
   * It's possible to utilise it as an access card for someone.
+  ## Threats:
+  * sometimes it may not be work.
 # 4W's and 1'H :
 ## Who
- Person Who need a security purpose
+ Person Who need a security purpose.
 ## What
-  automatic door operating system
+  automatic door operating system.
 ## When
  It can be used to safeguard valuable items.
 ## Where
   Shopping malls,Airports etc..
 ## How
-  using Atmega328
+  using Atmega328.
+# Detail requirements:
+## LOW LEVEL REQUIREMENT
+* ATmega328
+*	ADC
+* ADC with PWM-fast
+*	LED
+* Visual studio
+* SimulIDE
+## HIGH LEVEL REQUIREMENT
+* Microcontroller
+* door Sensor
+* Display
+* AVR compiler,simule ide
