@@ -20,4 +20,14 @@
   ## OPPURTUNITY:
   * It can be use speaker and scanner
   * It's possible to utilise it as an access card for someone.
-  
+# 4W's and 1'H :
+## Who
+ Person Who need a security purpose
+## What
+  automatic door operating system
+## When
+ It can be used to safeguard valuable items.
+## Where
+  Shopping malls,Airports etc..
+## How
+  using Atmega328
