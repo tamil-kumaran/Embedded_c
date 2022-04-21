@@ -10,4 +10,14 @@
  * Bus or Railway stations
  * Airports
  * Hospital
- 
+# SWOT ANALYSIS
+ ## STRENGTH:
+  * The cost is cheap.
+  * It does not have somebody to open and close it.
+  ## WEAKNESS:
+  * It has a range of operation.
+  * Sometimes, a sensor will fail.
+  ## OPPURTUNITY:
+  * It can be use speaker and scanner
+  * It's possible to utilise it as an access card for someone.
+  
