@@ -41,11 +41,11 @@ INCLUDE += #add user defined application
 Burn : Build
 	$(AVRDUDE) $(DUDEFLAGS)
 
-Build : $(MAIN_APP).elf
-	$(OBJCOPY) $(HFLAGS) $< $(MAIN_APP).hex
+Build : $(embedded_c).elf
+	$(OBJCOPY) $(HFLAGS) $< $(embedded_c).hex
 	
-$(MAIN_APP).elf: $(MAIN_APP).o
+$(embedded_c).elf: $(embedded_c).o
 	$(CC) $(SRC) $(INCLUDE) $(LFLAGS) $@
 	
-$(MAIN_APP).o:$(SRC)
+$(embedded_c).o:$(SRC)
 	$(CC) $^ $(INCLUDE) $(CFLAGS) $@
