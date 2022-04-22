@@ -7,3 +7,7 @@
 | HLR2 | door Sensor |
 | HLR3 | Display |
 | HLR4 | Software use |
+| Syntax | Description |
+| ----------- | ----------- |
+| Header | Title |
+| Paragraph | Text |
