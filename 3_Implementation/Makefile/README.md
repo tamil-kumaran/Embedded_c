@@ -1,5 +1,5 @@
 #Main application file name
-MAIN_APP = sensor
+ embedded_c = sensor
 #Main hex file path in windows format
 MAIN_HEX_PATH = C:\Users\TAMILKUMARAN\Documentation\project\sensor\$(embedded_c).hex
 
@@ -27,7 +27,7 @@ DUDEFLAGS += -P
 DUDEFLAGS += COM3 
 DUDEFLAGS += -b 
 DUDEFLAGS += 19200 
-DUDEFLAGS += -U flash:w:$(embedded_c):i
+DUDEFLAGS += -U flash:w:$(MAIN_HEX_PATH):i
 
 # Sources files needed for building the application 
 SRC = $(embedded_c).c
