@@ -7,7 +7,12 @@
 | HLR2 | door Sensor |
 | HLR3 | Display |
 | HLR4 | Software use |
-| Syntax | Description |
+# Table No 2: Low level test plan
+| Low Level Requirements |	Description |
 | ----------- | ----------- |
-| Header |Title |
-| Paragraph | Text |
+| HLR1_LLR1	 | ATmega328 |
+| HLR2_LLR1 |	ADC |
+| HLR2_LLR2 |	ADC with PWM-fast |
+| HLR3_LLR1	| LED |
+|HLR4_LLR1	 | Code Blocks with AVR GCC compiler |
+| HLR5_LLR2 |	SimulIDE |
